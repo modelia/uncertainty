@@ -1,0 +1,79 @@
+model Hotel
+
+class Room 
+attributes
+number:Integer
+operations
+  isHot() : UBoolean 
+    = self.tempSensor.temperature > 25 -- Set{ Tuple{degreeOfBelief : 0.5, beliefAgent : Set{'Bob}},  Tuple{degreeOfBelief : 0.99, beliefAgent : Set{'Mary}}}
+  isCold() : UBoolean 
+    = self.tempSensor.temperature < 18 -- Set{ Tuple{degreeOfBelief : 0.5, beliefAgent : Set{'Bob}},  Tuple{degreeOfBelief : 0.99, beliefAgent : Set{'Mary}}}
+end
+
+
+class COSensor
+attributes
+  coPPM:UInteger -- Tuple{degreeOfBelief : 0.9, beliefAgent : Set{} }
+end
+
+class TempSensor
+attributes
+  temperature:UReal 
+end
+
+class SmokeDetector
+attributes
+  smoke:UBoolean -- Tuple{degreeOfBelief : 0.9, beliefAgent : Set{} }
+end
+
+composition CO between
+  Room [1] role room
+  COSensor [1] role coSensor
+end
+
+composition Temp between
+  Room [1] role room
+  TempSensor [1] role tempSensor
+end
+
+composition Smoke between
+  Room [1] role room
+  SmokeDetector [1] role smokeDetector
+end
+
+
+class AlarmCentre
+attributes
+  highTemp : UBoolean 
+    derive = self.room.tempSensor.temperature>30 -- Tuple{degreeOfBelief : 0.95, beliefAgent : Set{} }
+  highCOLevel : UBoolean 
+    derive = self.room.coSensor.coPPM>20 -- Tuple{degreeOfBelief : 0.95, beliefAgent : Set{} }
+  smoke : UBoolean 
+	derive = self.room.smokeDetector.smoke 
+  fireAlert : UBoolean 
+	derive = highTemp and highCOLevel and smoke -- Tuple{degreeOfBelief : 0.95, beliefAgent : Set{} }
+end
+
+composition RoomAlarmed between
+	Room [1] role room 
+	AlarmCentre [1] role alarmCenter
+end
+
+constraints 
+
+context Room inv UniqueNumbers:
+	Room.allInstances->forAll(r1,r2|r1<>r2 implies r1.number<>r2.number) 
+
+context TempSensor inv TempPrecision:
+  self.temperature.uncertainty() <= 0.02 -- Tuple{degreeOfBelief : 0.98, beliefAgent : Set{} }
+
+context SmokeDetector inv correctSmokeType: 
+  self.smoke.oclIsTypeOf(UBoolean) -- Tuple{degreeOfBelief : 0.95, beliefAgent : Set{} }
+
+context Room inv correctRoomNumberType: 
+  self.number.oclIsTypeOf(Integer) -- Tuple{degreeOfBelief : 0.95, beliefAgent : Set{'Bob} }
+
+context AlarmCentre inv correctRoomCardinality: 
+  self.room->size = 1 -- Tuple{degreeOfBelief : 0.95, beliefAgent : Set{} }
+
+

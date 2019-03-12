@@ -1,0 +1,232 @@
+USE version 5.0.0, Copyright (C) 1999-2017 University of Bremen
+use> [GUI] new Room
+[GUI] new Room
+[GUI] new COSensor
+[GUI] new TempSensor
+[GUI] new SmokeDetector
+[GUI] new AlarmCentre
+open Hotel.soil
+Hotel.soil> reset
+Hotel.soil> !new Room('r1)
+<input>:line 1:13 mismatched character '<EOF>' expecting '''
+<input>:line 1:0 no viable alternative at input 'new'
+Hotel.soil> !r1.number := 1
+<input>:1:0: Variable `r1' in expression `r1' is undefined.
+Hotel.soil> !new COSensor('co1)
+<input>:line 1:18 mismatched character '<EOF>' expecting '''
+<input>:line 1:0 no viable alternative at input 'new'
+Hotel.soil> !new TempSensor('ts1)
+<input>:line 1:20 mismatched character '<EOF>' expecting '''
+<input>:line 1:0 no viable alternative at input 'new'
+Hotel.soil> !new SmokeDetector('sd1)
+<input>:line 1:23 mismatched character '<EOF>' expecting '''
+<input>:line 1:0 no viable alternative at input 'new'
+Hotel.soil> !new AlarmCentre('ac1)
+<input>:line 1:21 mismatched character '<EOF>' expecting '''
+<input>:line 1:0 no viable alternative at input 'new'
+Hotel.soil> !insert (r1,ts1) into Temp
+<input>:1:0: Variable `r1' in expression `r1' is undefined.
+Hotel.soil> !insert (r1,co1) into CO
+<input>:1:0: Variable `r1' in expression `r1' is undefined.
+Hotel.soil> !insert (r1,sd1) into Smoke
+<input>:1:0: Variable `r1' in expression `r1' is undefined.
+Hotel.soil> !insert (r1,ac1) into RoomAlarmed
+<input>:1:0: Variable `r1' in expression `r1' is undefined.
+Hotel.soil> !ts1.temperature := UReal(18.0,0.1)
+<input>:1:0: Variable `ts1' in expression `ts1' is undefined.
+Hotel.soil> !co1.coPPM := UInteger(5,0.1)
+<input>:1:0: Variable `co1' in expression `co1' is undefined.
+Hotel.soil> !sd1.smoke := UBoolean(false,0.99)
+<input>:1:0: Variable `sd1' in expression `sd1' is undefined.
+Hotel.soil> 
+Hotel.soil> !new Room('r3)
+<input>:line 1:13 mismatched character '<EOF>' expecting '''
+<input>:line 1:0 no viable alternative at input 'new'
+Hotel.soil> !r2.number := 3
+<input>:1:0: Variable `r2' in expression `r2' is undefined.
+Hotel.soil> !new COSensor('co3)
+<input>:line 1:18 mismatched character '<EOF>' expecting '''
+<input>:line 1:0 no viable alternative at input 'new'
+Hotel.soil> !new TempSensor('ts3)
+<input>:line 1:20 mismatched character '<EOF>' expecting '''
+<input>:line 1:0 no viable alternative at input 'new'
+Hotel.soil> !new SmokeDetector('sd3)
+<input>:line 1:23 mismatched character '<EOF>' expecting '''
+<input>:line 1:0 no viable alternative at input 'new'
+Hotel.soil> !new AlarmCentre('ac3)
+<input>:line 1:21 mismatched character '<EOF>' expecting '''
+<input>:line 1:0 no viable alternative at input 'new'
+Hotel.soil> !insert (r1,ts3) into Temp
+<input>:1:0: Variable `r1' in expression `r1' is undefined.
+Hotel.soil> !insert (r1,co3) into CO
+<input>:1:0: Variable `r1' in expression `r1' is undefined.
+Hotel.soil> !insert (r1,sd3) into Smoke
+<input>:1:0: Variable `r1' in expression `r1' is undefined.
+Hotel.soil> !insert (r1,ac3) into RoomAlarmed
+<input>:1:0: Variable `r1' in expression `r1' is undefined.
+Hotel.soil> !ts3.temperature := UReal(30.0,0.1)
+<input>:1:0: Variable `ts3' in expression `ts3' is undefined.
+Hotel.soil> !co3.coPPM := UInteger(50,0.1)
+<input>:1:0: Variable `co3' in expression `co3' is undefined.
+Hotel.soil> !sd3.smoke := UBoolean(true,0.99)
+<input>:1:0: Variable `sd3' in expression `sd3' is undefined.
+Hotel.soil> 
+use> Hotel.soil> reset
+Hotel.soil> !new Room('r1')
+Hotel.soil> !r1.number := 1
+Hotel.soil> !new COSensor('co1')
+Hotel.soil> !new TempSensor('ts1')
+Hotel.soil> !new SmokeDetector('sd1')
+Hotel.soil> !new AlarmCentre('ac1')
+Hotel.soil> !insert (r1,ts1) into Temp
+Hotel.soil> !insert (r1,co1) into CO
+Hotel.soil> !insert (r1,sd1) into Smoke
+Hotel.soil> !insert (r1,ac1) into RoomAlarmed
+Hotel.soil> !ts1.temperature := UReal(18.0,0.1)
+Hotel.soil> !co1.coPPM := UInteger(5,0.1)
+Hotel.soil> !sd1.smoke := UBoolean(false,0.99)
+Hotel.soil> 
+Hotel.soil> !new Room('r3')
+Hotel.soil> !r2.number := 3
+<input>:1:0: Variable `r2' in expression `r2' is undefined.
+Hotel.soil> !new COSensor('co3')
+Hotel.soil> !new TempSensor('ts3')
+Hotel.soil> !new SmokeDetector('sd3')
+Hotel.soil> !new AlarmCentre('ac3')
+Hotel.soil> !insert (r1,ts3) into Temp
+Hotel.soil> !insert (r1,co3) into CO
+Hotel.soil> !insert (r1,sd3) into Smoke
+Hotel.soil> !insert (r1,ac3) into RoomAlarmed
+Hotel.soil> !ts3.temperature := UReal(30.0,0.1)
+Hotel.soil> !co3.coPPM := UInteger(50,0.1)
+Hotel.soil> !sd3.smoke := UBoolean(true,0.99)
+Hotel.soil> 
+use> Hotel.soil> reset
+Hotel.soil> !new Room('r1')
+Hotel.soil> !r1.number := 1
+Hotel.soil> !new COSensor('co1')
+Hotel.soil> !new TempSensor('ts1')
+Hotel.soil> !new SmokeDetector('sd1')
+Hotel.soil> !new AlarmCentre('ac1')
+Hotel.soil> !insert (r1,ts1) into Temp
+Hotel.soil> !insert (r1,co1) into CO
+Hotel.soil> !insert (r1,sd1) into Smoke
+Hotel.soil> !insert (r1,ac1) into RoomAlarmed
+Hotel.soil> !ts1.temperature := UReal(18.0,0.1)
+Hotel.soil> !co1.coPPM := UInteger(5,0.1)
+Hotel.soil> !sd1.smoke := UBoolean(false,0.99)
+Hotel.soil> 
+Hotel.soil> !new Room('r3')
+Hotel.soil> !r3.number := 3
+Hotel.soil> !new COSensor('co3')
+Hotel.soil> !new TempSensor('ts3')
+Hotel.soil> !new SmokeDetector('sd3')
+Hotel.soil> !new AlarmCentre('ac3')
+Hotel.soil> !insert (r1,ts3) into Temp
+Hotel.soil> !insert (r1,co3) into CO
+Hotel.soil> !insert (r1,sd3) into Smoke
+Hotel.soil> !insert (r1,ac3) into RoomAlarmed
+Hotel.soil> !ts3.temperature := UReal(30.0,0.1)
+Hotel.soil> !co3.coPPM := UInteger(50,0.1)
+Hotel.soil> !sd3.smoke := UBoolean(true,0.99)
+Hotel.soil> 
+use> Error: Derive expression of attribute `AlarmCentre::highTemp' let to a runtime exception: expected link set size 1 at association end `tempSensor', found: 2
+Error: Derive expression of attribute `AlarmCentre::highCOLevel' let to a runtime exception: expected link set size 1 at association end `coSensor', found: 2
+Error: Derive expression of attribute `AlarmCentre::smoke' let to a runtime exception: expected link set size 1 at association end `smokeDetector', found: 2
+Error: Derive expression of attribute `AlarmCentre::highTemp' let to a runtime exception: expected link set size 1 at association end `tempSensor', found: 2
+Error: Derive expression of attribute `AlarmCentre::highCOLevel' let to a runtime exception: expected link set size 1 at association end `coSensor', found: 2
+Error: Derive expression of attribute `AlarmCentre::smoke' let to a runtime exception: expected link set size 1 at association end `smokeDetector', found: 2
+Error: Derive expression of attribute `AlarmCentre::smoke' let to a runtime exception: expected link set size 1 at association end `smokeDetector', found: 2
+Error: Derive expression of attribute `AlarmCentre::smoke' let to a runtime exception: expected link set size 1 at association end `smokeDetector', found: 2
+Error: Derive expression of attribute `AlarmCentre::highTemp' let to a runtime exception: expected link set size 1 at association end `tempSensor', found: 2
+Error: Derive expression of attribute `AlarmCentre::highTemp' let to a runtime exception: expected link set size 1 at association end `tempSensor', found: 2
+Error: Derive expression of attribute `AlarmCentre::highCOLevel' let to a runtime exception: expected link set size 1 at association end `coSensor', found: 2
+Error: Derive expression of attribute `AlarmCentre::highCOLevel' let to a runtime exception: expected link set size 1 at association end `coSensor', found: 2
+Hotel.soil> reset
+Hotel.soil> !new Room('r1')
+Hotel.soil> !r1.number := 1
+Hotel.soil> !new COSensor('co1')
+Hotel.soil> !new TempSensor('ts1')
+Hotel.soil> !new SmokeDetector('sd1')
+Hotel.soil> !new AlarmCentre('ac1')
+Hotel.soil> !insert (r1,ts1) into Temp
+Hotel.soil> !insert (r1,co1) into CO
+Hotel.soil> !insert (r1,sd1) into Smoke
+Hotel.soil> !insert (r1,ac1) into RoomAlarmed
+Hotel.soil> !ts1.temperature := UReal(18.0,0.1)
+Hotel.soil> !co1.coPPM := UInteger(5,0.1)
+Hotel.soil> !sd1.smoke := UBoolean(false,0.99)
+Hotel.soil> 
+Hotel.soil> !new Room('r3')
+Hotel.soil> !r3.number := 3
+Hotel.soil> !new COSensor('co3')
+Hotel.soil> !new TempSensor('ts3')
+Hotel.soil> !new SmokeDetector('sd3')
+Hotel.soil> !new AlarmCentre('ac3')
+Hotel.soil> !insert (r3,ts3) into Temp
+Hotel.soil> !insert (r3,co3) into CO
+Hotel.soil> !insert (r3,sd3) into Smoke
+Hotel.soil> !insert (r3,ac3) into RoomAlarmed
+Hotel.soil> !ts3.temperature := UReal(30.0,0.1)
+Hotel.soil> !co3.coPPM := UInteger(50,0.1)
+Hotel.soil> !sd3.smoke := UBoolean(true,0.99)
+Hotel.soil> 
+use> Hotel.soil> reset
+Hotel.soil> !new Room('r1')
+Hotel.soil> !r1.number := 1
+Hotel.soil> !new COSensor('co1')
+Hotel.soil> !new TempSensor('ts1')
+Hotel.soil> !new SmokeDetector('sd1')
+Hotel.soil> !new AlarmCentre('ac1')
+Hotel.soil> !insert (r1,ts1) into Temp
+Hotel.soil> !insert (r1,co1) into CO
+Hotel.soil> !insert (r1,sd1) into Smoke
+Hotel.soil> !insert (r1,ac1) into RoomAlarmed
+Hotel.soil> !ts1.temperature := UReal(18.0,0.1)
+Hotel.soil> !co1.coPPM := UInteger(5,0.1)
+Hotel.soil> !sd1.smoke := UBoolean(false,0.99)
+Hotel.soil> 
+Hotel.soil> !new Room('r3')
+Hotel.soil> !r3.number := 3
+Hotel.soil> !new COSensor('co3')
+Hotel.soil> !new TempSensor('ts3')
+Hotel.soil> !new SmokeDetector('sd3')
+Hotel.soil> !new AlarmCentre('ac3')
+Hotel.soil> !insert (r3,ts3) into Temp
+Hotel.soil> !insert (r3,co3) into CO
+Hotel.soil> !insert (r3,sd3) into Smoke
+Hotel.soil> !insert (r3,ac3) into RoomAlarmed
+Hotel.soil> !ts3.temperature := UReal(45.0,0.1)
+Hotel.soil> !co3.coPPM := UInteger(50,0.1)
+Hotel.soil> !sd3.smoke := UBoolean(true,0.99)
+Hotel.soil> 
+use> Hotel.soil> reset
+Hotel.soil> !new Room('r1')
+Hotel.soil> !r1.number := 1
+Hotel.soil> !new COSensor('co1')
+Hotel.soil> !new TempSensor('ts1')
+Hotel.soil> !new SmokeDetector('sd1')
+Hotel.soil> !new AlarmCentre('ac1')
+Hotel.soil> !insert (r1,ts1) into Temp
+Hotel.soil> !insert (r1,co1) into CO
+Hotel.soil> !insert (r1,sd1) into Smoke
+Hotel.soil> !insert (r1,ac1) into RoomAlarmed
+Hotel.soil> !ts1.temperature := UReal(18.0,0.1)
+Hotel.soil> !co1.coPPM := UInteger(5,0.1)
+Hotel.soil> !sd1.smoke := UBoolean(false,0.99)
+Hotel.soil> 
+Hotel.soil> !new Room('r3')
+Hotel.soil> !r3.number := 3
+Hotel.soil> !new COSensor('co3')
+Hotel.soil> !new TempSensor('ts3')
+Hotel.soil> !new SmokeDetector('sd3')
+Hotel.soil> !new AlarmCentre('ac3')
+Hotel.soil> !insert (r3,ts3) into Temp
+Hotel.soil> !insert (r3,co3) into CO
+Hotel.soil> !insert (r3,sd3) into Smoke
+Hotel.soil> !insert (r3,ac3) into RoomAlarmed
+Hotel.soil> !ts3.temperature := UReal(31.0,0.1)
+Hotel.soil> !co3.coPPM := UInteger(50,0.1)
+Hotel.soil> !sd3.smoke := UBoolean(true,0.99)
+Hotel.soil> 
+use> 

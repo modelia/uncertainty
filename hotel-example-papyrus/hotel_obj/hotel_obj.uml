@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BeliefProfile="http://beliefprofile/schemas/BeliefProfile/_BvLRZCToEemxz-Ls2KLRJQ/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://beliefprofile/schemas/BeliefProfile/_BvLRZCToEemxz-Ls2KLRJQ/0 ../beliefprofile/beliefprofile.profile.uml#_BvVCZyToEemxz-Ls2KLRJQ">
+  <uml:Model xmi:id="_s94bcCThEemxz-Ls2KLRJQ" name="hotel_obj">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_-7h9sCTqEemxz-Ls2KLRJQ" annotatedElement="_klTqICTlEemxz-Ls2KLRJQ">
+      <body>beliefAgent = Bob&#xD;
+degreeOfBelief = 0.95</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_lS0BoCTrEemxz-Ls2KLRJQ" annotatedElement="_klTqICTlEemxz-Ls2KLRJQ">
+      <body>beliefAgent = Bob&#xD;
+degreeOfBelief = 0.95</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_oBlVACTrEemxz-Ls2KLRJQ" annotatedElement="_klTqICTlEemxz-Ls2KLRJQ">
+      <body>degreeOfBelief = 0.1</body>
+    </ownedComment>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_tAtF8CThEemxz-Ls2KLRJQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JGazcCTiEemxz-Ls2KLRJQ" name="r1 : Room">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_O8ojcCTjEemxz-Ls2KLRJQ" name="number" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_ScBbcCTjEemxz-Ls2KLRJQ" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xD_qUCTjEemxz-Ls2KLRJQ" name="r2 : Room">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xD_qUSTjEemxz-Ls2KLRJQ" name="number" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_xD_qUiTjEemxz-Ls2KLRJQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_0ZdxUCTjEemxz-Ls2KLRJQ" name="number" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_7DeLMCTjEemxz-Ls2KLRJQ" value="3"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QY-JICTkEemxz-Ls2KLRJQ" name="ts1 : TempSensor">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_QY-JISTkEemxz-Ls2KLRJQ" name="number" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_QY-JIiTkEemxz-Ls2KLRJQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_U5GFYCTkEemxz-Ls2KLRJQ" name="temperature" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_U5GFYSTkEemxz-Ls2KLRJQ" value="UReal(18, 0.1)"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kluWUCTkEemxz-Ls2KLRJQ" name="ts2 : TempSensor">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_kluWUSTkEemxz-Ls2KLRJQ" name="number" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_kluWUiTkEemxz-Ls2KLRJQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_kluWUyTkEemxz-Ls2KLRJQ" name="temperature" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_kluWVCTkEemxz-Ls2KLRJQ" value="UReal(18, 0.1)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nCvyYCTkEemxz-Ls2KLRJQ" name="temperature" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_nCvyYSTkEemxz-Ls2KLRJQ" value="UReal(30.2, 0.1)"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_vm7Z8CTkEemxz-Ls2KLRJQ" name="cos1 : COSensor">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vm7Z8STkEemxz-Ls2KLRJQ" name="number" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_vm7Z8iTkEemxz-Ls2KLRJQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vm7Z8yTkEemxz-Ls2KLRJQ" name="temperature" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_vm7Z9CTkEemxz-Ls2KLRJQ" value="UReal(18, 0.1)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_0Lua0CTkEemxz-Ls2KLRJQ" name="coPPM" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_0Lua0STkEemxz-Ls2KLRJQ" value="UInteger(5, 0.1)"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9fjWoCTkEemxz-Ls2KLRJQ" name="cos2 : COSensor">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9fjWoSTkEemxz-Ls2KLRJQ" name="number" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_9fjWoiTkEemxz-Ls2KLRJQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9fjWoyTkEemxz-Ls2KLRJQ" name="temperature" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_9fjWpCTkEemxz-Ls2KLRJQ" value="UReal(18, 0.1)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9fjWpSTkEemxz-Ls2KLRJQ" name="coPPM" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_9fjWpiTkEemxz-Ls2KLRJQ" value="UInteger(5, 0.1)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_BR1VcCTlEemxz-Ls2KLRJQ" name="coPPM" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_BR1VcSTlEemxz-Ls2KLRJQ" value="UInteger(50, 0.1)"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LgrIACTlEemxz-Ls2KLRJQ" name="sd1 : SmokeDetector">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_LgrIASTlEemxz-Ls2KLRJQ" name="number" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_LgrIAiTlEemxz-Ls2KLRJQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_LgrIAyTlEemxz-Ls2KLRJQ" name="temperature" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_LgrIBCTlEemxz-Ls2KLRJQ" value="UReal(18, 0.1)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_LgrIBSTlEemxz-Ls2KLRJQ" name="coPPM" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_LgrIBiTlEemxz-Ls2KLRJQ" value="UInteger(5, 0.1)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_MKpSECTlEemxz-Ls2KLRJQ" name="smoke" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_MKpSESTlEemxz-Ls2KLRJQ" value="UBoolean(false, 0.99)"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VGHYQCTlEemxz-Ls2KLRJQ" name="sd2 : SmokeDetector">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_VGHYQSTlEemxz-Ls2KLRJQ" name="number" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_VGHYQiTlEemxz-Ls2KLRJQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_VGHYQyTlEemxz-Ls2KLRJQ" name="temperature" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_VGHYRCTlEemxz-Ls2KLRJQ" value="UReal(18, 0.1)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_VGHYRSTlEemxz-Ls2KLRJQ" name="coPPM" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_VGHYRiTlEemxz-Ls2KLRJQ" value="UInteger(5, 0.1)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_VGHYRyTlEemxz-Ls2KLRJQ" name="smoke" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_VGHYSCTlEemxz-Ls2KLRJQ" value="UBoolean(false, 0.99)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_V-YdACTlEemxz-Ls2KLRJQ" name="smoke" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_V-YdASTlEemxz-Ls2KLRJQ" value="UBoolean(false, 0.99)"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_gZyE4CTlEemxz-Ls2KLRJQ" name="ac1 : AlarmCenter">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gZyE4STlEemxz-Ls2KLRJQ" name="number" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_gZyE4iTlEemxz-Ls2KLRJQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gZyE4yTlEemxz-Ls2KLRJQ" name="temperature" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_gZyE5CTlEemxz-Ls2KLRJQ" value="UReal(18, 0.1)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gZyE5STlEemxz-Ls2KLRJQ" name="coPPM" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_gZyE5iTlEemxz-Ls2KLRJQ" value="UInteger(5, 0.1)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gZyE5yTlEemxz-Ls2KLRJQ" name="smoke" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_gZyE6CTlEemxz-Ls2KLRJQ" value="UBoolean(false, 0.99)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_klTqICTlEemxz-Ls2KLRJQ" name="fireAlert" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_klTqISTlEemxz-Ls2KLRJQ" value="UBoolean(false, 0.99)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_qIAdsCTlEemxz-Ls2KLRJQ" name="highCO" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_qIAdsSTlEemxz-Ls2KLRJQ" value="UBoolean(false, 1.0)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vv4sMCTlEemxz-Ls2KLRJQ" name="highTemp" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_vv4sMSTlEemxz-Ls2KLRJQ" value="UBoolean(false, 1.0)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_0AK1oCTlEemxz-Ls2KLRJQ" name="smoke" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_0AK1oSTlEemxz-Ls2KLRJQ" value="UBoolean(false, 0.99)"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5mm5sCTlEemxz-Ls2KLRJQ" name="ac2 : AlarmCenter">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5mm5sSTlEemxz-Ls2KLRJQ" name="number" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_5mm5siTlEemxz-Ls2KLRJQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5mm5syTlEemxz-Ls2KLRJQ" name="temperature" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_5mm5tCTlEemxz-Ls2KLRJQ" value="UReal(18, 0.1)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5mm5tSTlEemxz-Ls2KLRJQ" name="coPPM" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_5mm5tiTlEemxz-Ls2KLRJQ" value="UInteger(5, 0.1)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5mm5tyTlEemxz-Ls2KLRJQ" name="smoke" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_5mm5uCTlEemxz-Ls2KLRJQ" value="UBoolean(false, 0.99)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5mm5uSTlEemxz-Ls2KLRJQ" name="fireAlert" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_5mm5uiTlEemxz-Ls2KLRJQ" value="UBoolean(false, 0.99)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5mm5uyTlEemxz-Ls2KLRJQ" name="highCO" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_5mm5vCTlEemxz-Ls2KLRJQ" value="UBoolean(false, 1.0)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5mm5vSTlEemxz-Ls2KLRJQ" name="highTemp" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_5mm5viTlEemxz-Ls2KLRJQ" value="UBoolean(false, 1.0)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5mm5vyTlEemxz-Ls2KLRJQ" name="smoke" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_5mm5wCTlEemxz-Ls2KLRJQ" value="UBoolean(false, 0.99)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="__81b8CTlEemxz-Ls2KLRJQ" name="fireAlert" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="__81b8STlEemxz-Ls2KLRJQ" value="UBoolean(true, 0.97)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_M6WbQCTmEemxz-Ls2KLRJQ" name="highCO" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_M6WbQSTmEemxz-Ls2KLRJQ" value="UBoolean(true, 1.0)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_SU5YYCTmEemxz-Ls2KLRJQ" name="highTemp" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_SU5YYSTmEemxz-Ls2KLRJQ" value="UBoolean(true, 0.98)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Xt4PQCTmEemxz-Ls2KLRJQ" name="smoke" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Xt4PQSTmEemxz-Ls2KLRJQ" value="UBoolean(true, 0.99)"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_hOKV4CTqEemxz-Ls2KLRJQ"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_qA9oQCTqEemxz-Ls2KLRJQ"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_vkp6UCTqEemxz-Ls2KLRJQ"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ygy7UCTqEemxz-Ls2KLRJQ"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_uKraMCTrEemxz-Ls2KLRJQ"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_vd0dECTrEemxz-Ls2KLRJQ"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_wxRpACTrEemxz-Ls2KLRJQ"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_yWAyMCTrEemxz-Ls2KLRJQ"/>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_oK1T0CU8EemEn4oXuegbKA" name="Bob : Person"/>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_tpJ9sCU8EemEn4oXuegbKA" name="Mary : Person"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QgNPACTjEemxz-Ls2KLRJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QgPEMCTjEemxz-Ls2KLRJQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mcsiMCToEemxz-Ls2KLRJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e3v-4CU8EemEn4oXuegbKA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_prqp4CU7EemGUZWklgs66A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e36W8CU8EemEn4oXuegbKA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e36W8SU8EemEn4oXuegbKA" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e36W8iU8EemEn4oXuegbKA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e36W8yU8EemEn4oXuegbKA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e36W9CU8EemEn4oXuegbKA" key="Date" value="2019-01-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e36W9SU8EemEn4oXuegbKA" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e35I0CU8EemEn4oXuegbKA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../beliefprofile/beliefprofile.profile.uml#_BvVCZyToEemxz-Ls2KLRJQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../beliefprofile/beliefprofile.profile.uml#_CstRoCTdEemxz-Ls2KLRJQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PpX84CiBEemB_tUfW_u99A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PplYQCiBEemB_tUfW_u99A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../beliefprofile/beliefprofile.profile.uml#_BvLRYiToEemxz-Ls2KLRJQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../beliefprofile/beliefprofile.profile.uml#_6OkAoCTcEemxz-Ls2KLRJQ"/>
+    </profileApplication>
+  </uml:Model>
+  <BeliefProfile:BeliefAgent xmi:id="_tyhhwCiBEemefPBcM7WVKA" base_InstanceSpecification="_oK1T0CU8EemEn4oXuegbKA"/>
+  <BeliefProfile:BeliefAgent xmi:id="_v-eb8CiBEemefPBcM7WVKA" base_InstanceSpecification="_tpJ9sCU8EemEn4oXuegbKA"/>
+  <BeliefProfile:BeliefStatement xmi:id="_xVJ7ACiBEemefPBcM7WVKA" base_Element="_-7h9sCTqEemxz-Ls2KLRJQ"/>
+  <BeliefProfile:BeliefStatement xmi:id="_yKOh0CiBEemefPBcM7WVKA" base_Element="_lS0BoCTrEemxz-Ls2KLRJQ"/>
+</xmi:XMI>
