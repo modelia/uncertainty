@@ -1,63 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_HRDEsCTLEemxz-Ls2KLRJQ" name="hotel">
-  <packageImport xmi:id="_HiINoCTLEemxz-Ls2KLRJQ">
-    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
-  </packageImport>
-  <packagedElement xmi:type="uml:Class" xmi:id="_c6EbkCTLEemxz-Ls2KLRJQ" name="Room">
-    <ownedAttribute xmi:id="_A7pMYCTMEemxz-Ls2KLRJQ" name="number" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_YTIawCTNEemxz-Ls2KLRJQ" name="alarmCenter" type="_LWeXECTNEemxz-Ls2KLRJQ" aggregation="composite" association="_YTFXcCTNEemxz-Ls2KLRJQ"/>
-    <ownedAttribute xmi:id="_fk4KESTNEemxz-Ls2KLRJQ" name="smokeDetector" type="_PFwsQCTNEemxz-Ls2KLRJQ" aggregation="composite" association="_fk0fsCTNEemxz-Ls2KLRJQ"/>
-    <ownedAttribute xmi:id="_jsb1UiTNEemxz-Ls2KLRJQ" name="coSensor" type="_QdeGECTNEemxz-Ls2KLRJQ" aggregation="composite" association="_jsYyACTNEemxz-Ls2KLRJQ"/>
-    <ownedAttribute xmi:id="_qHDIUiTNEemxz-Ls2KLRJQ" name="tempsensor" type="_RE1oECTNEemxz-Ls2KLRJQ" aggregation="composite" association="_qHAsECTNEemxz-Ls2KLRJQ"/>
-    <ownedOperation xmi:id="_LrgBUCTMEemxz-Ls2KLRJQ" name="isHot" visibility="public">
-      <ownedParameter xmi:id="_uUJQUCTMEemxz-Ls2KLRJQ" type="_iqKVcCTMEemxz-Ls2KLRJQ" direction="return"/>
-    </ownedOperation>
-    <ownedOperation xmi:id="_FJOKoCTNEemxz-Ls2KLRJQ" name="isCold">
-      <ownedParameter xmi:id="_HfZX0CTNEemxz-Ls2KLRJQ" type="_iqKVcCTMEemxz-Ls2KLRJQ" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_iqKVcCTMEemxz-Ls2KLRJQ" name="UBoolean"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_LWeXECTNEemxz-Ls2KLRJQ" name="AlarmCenter">
-    <ownedAttribute xmi:id="_MPvr8CTOEemxz-Ls2KLRJQ" name="highTemp" type="_iqKVcCTMEemxz-Ls2KLRJQ" aggregation="shared" isDerived="true"/>
-    <ownedAttribute xmi:id="_RHT30CTOEemxz-Ls2KLRJQ" name="highCOLevel" type="_iqKVcCTMEemxz-Ls2KLRJQ" isDerived="true"/>
-    <ownedAttribute xmi:id="_T7aXICTOEemxz-Ls2KLRJQ" name="smoke" type="_iqKVcCTMEemxz-Ls2KLRJQ" isDerived="true"/>
-    <ownedAttribute xmi:id="_VioMkCTOEemxz-Ls2KLRJQ" name="fireAlert" type="_iqKVcCTMEemxz-Ls2KLRJQ" isDerived="true"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_PFwsQCTNEemxz-Ls2KLRJQ" name="SmokeDetector">
-    <ownedAttribute xmi:id="_AFmDQCTOEemxz-Ls2KLRJQ" name="smoke" type="_iqKVcCTMEemxz-Ls2KLRJQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_QdeGECTNEemxz-Ls2KLRJQ" name="COSensor">
-    <ownedAttribute xmi:id="_3XEM4CTNEemxz-Ls2KLRJQ" name="coPPM" type="_6msKkCTNEemxz-Ls2KLRJQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_RE1oECTNEemxz-Ls2KLRJQ" name="TempSensor">
-    <ownedAttribute xmi:id="_zPALUCTNEemxz-Ls2KLRJQ" name="temperature" type="_urMB4CTNEemxz-Ls2KLRJQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_YTFXcCTNEemxz-Ls2KLRJQ" memberEnd="_YTIawCTNEemxz-Ls2KLRJQ _YTJB0iTNEemxz-Ls2KLRJQ">
-    <eAnnotations xmi:id="_YTGlkCTNEemxz-Ls2KLRJQ" source="org.eclipse.papyrus">
-      <details xmi:id="_YTHzsCTNEemxz-Ls2KLRJQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:id="_YTJB0iTNEemxz-Ls2KLRJQ" name="room" type="_c6EbkCTLEemxz-Ls2KLRJQ" association="_YTFXcCTNEemxz-Ls2KLRJQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_fk0fsCTNEemxz-Ls2KLRJQ" memberEnd="_fk4KESTNEemxz-Ls2KLRJQ _fk5_QCTNEemxz-Ls2KLRJQ">
-    <eAnnotations xmi:id="_fk3jACTNEemxz-Ls2KLRJQ" source="org.eclipse.papyrus">
-      <details xmi:id="_fk4KECTNEemxz-Ls2KLRJQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:id="_fk5_QCTNEemxz-Ls2KLRJQ" name="room" type="_c6EbkCTLEemxz-Ls2KLRJQ" association="_fk0fsCTNEemxz-Ls2KLRJQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_jsYyACTNEemxz-Ls2KLRJQ" memberEnd="_jsb1UiTNEemxz-Ls2KLRJQ _jse4oCTNEemxz-Ls2KLRJQ">
-    <eAnnotations xmi:id="_jsb1UCTNEemxz-Ls2KLRJQ" source="org.eclipse.papyrus">
-      <details xmi:id="_jsb1USTNEemxz-Ls2KLRJQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:id="_jse4oCTNEemxz-Ls2KLRJQ" name="room" type="_c6EbkCTLEemxz-Ls2KLRJQ" association="_jsYyACTNEemxz-Ls2KLRJQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_qHAsECTNEemxz-Ls2KLRJQ" memberEnd="_qHDIUiTNEemxz-Ls2KLRJQ _qHDvYiTNEemxz-Ls2KLRJQ">
-    <eAnnotations xmi:id="_qHDIUCTNEemxz-Ls2KLRJQ" source="org.eclipse.papyrus">
-      <details xmi:id="_qHDIUSTNEemxz-Ls2KLRJQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:id="_qHDvYiTNEemxz-Ls2KLRJQ" name="room" type="_c6EbkCTLEemxz-Ls2KLRJQ" association="_qHAsECTNEemxz-Ls2KLRJQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_urMB4CTNEemxz-Ls2KLRJQ" name="UReal"/>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_6msKkCTNEemxz-Ls2KLRJQ" name="UInteger"/>
-</uml:Model>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Symbols="http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2 pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA">
+  <uml:Model xmi:id="_HRDEsCTLEemxz-Ls2KLRJQ" name="HotelSystem">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_HiINoCTLEemxz-Ls2KLRJQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_c6EbkCTLEemxz-Ls2KLRJQ" name="Room">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_A7pMYCTMEemxz-Ls2KLRJQ" name="number" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YTIawCTNEemxz-Ls2KLRJQ" name="alarmCenter" type="_LWeXECTNEemxz-Ls2KLRJQ" aggregation="composite" association="_YTFXcCTNEemxz-Ls2KLRJQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_fk4KESTNEemxz-Ls2KLRJQ" name="smokeDetector" type="_PFwsQCTNEemxz-Ls2KLRJQ" aggregation="composite" association="_fk0fsCTNEemxz-Ls2KLRJQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jsb1UiTNEemxz-Ls2KLRJQ" name="coSensor" type="_QdeGECTNEemxz-Ls2KLRJQ" aggregation="composite" association="_jsYyACTNEemxz-Ls2KLRJQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_qHDIUiTNEemxz-Ls2KLRJQ" name="tempsensor" type="_RE1oECTNEemxz-Ls2KLRJQ" aggregation="composite" association="_qHAsECTNEemxz-Ls2KLRJQ"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_LrgBUCTMEemxz-Ls2KLRJQ" name="isHot" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_uUJQUCTMEemxz-Ls2KLRJQ" type="_iqKVcCTMEemxz-Ls2KLRJQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_FJOKoCTNEemxz-Ls2KLRJQ" name="isCold">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_HfZX0CTNEemxz-Ls2KLRJQ" type="_iqKVcCTMEemxz-Ls2KLRJQ" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LWeXECTNEemxz-Ls2KLRJQ" name="AlarmCenter">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_MPvr8CTOEemxz-Ls2KLRJQ" name="highTemp" type="_iqKVcCTMEemxz-Ls2KLRJQ" aggregation="shared" isDerived="true"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RHT30CTOEemxz-Ls2KLRJQ" name="highCOLevel" type="_iqKVcCTMEemxz-Ls2KLRJQ" isDerived="true"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_T7aXICTOEemxz-Ls2KLRJQ" name="smoke" type="_iqKVcCTMEemxz-Ls2KLRJQ" isDerived="true"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_VioMkCTOEemxz-Ls2KLRJQ" name="fireAlert" type="_iqKVcCTMEemxz-Ls2KLRJQ" isDerived="true"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_PFwsQCTNEemxz-Ls2KLRJQ" name="SmokeDetector">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_AFmDQCTOEemxz-Ls2KLRJQ" name="smoke" type="_iqKVcCTMEemxz-Ls2KLRJQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QdeGECTNEemxz-Ls2KLRJQ" name="COSensor">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3XEM4CTNEemxz-Ls2KLRJQ" name="coPPM" type="_6msKkCTNEemxz-Ls2KLRJQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RE1oECTNEemxz-Ls2KLRJQ" name="TempSensor">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zPALUCTNEemxz-Ls2KLRJQ" name="temperature" type="_urMB4CTNEemxz-Ls2KLRJQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_YTFXcCTNEemxz-Ls2KLRJQ" memberEnd="_YTIawCTNEemxz-Ls2KLRJQ _YTJB0iTNEemxz-Ls2KLRJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YTGlkCTNEemxz-Ls2KLRJQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YTHzsCTNEemxz-Ls2KLRJQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_YTJB0iTNEemxz-Ls2KLRJQ" name="room" type="_c6EbkCTLEemxz-Ls2KLRJQ" association="_YTFXcCTNEemxz-Ls2KLRJQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_fk0fsCTNEemxz-Ls2KLRJQ" memberEnd="_fk4KESTNEemxz-Ls2KLRJQ _fk5_QCTNEemxz-Ls2KLRJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fk3jACTNEemxz-Ls2KLRJQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fk4KECTNEemxz-Ls2KLRJQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_fk5_QCTNEemxz-Ls2KLRJQ" name="room" type="_c6EbkCTLEemxz-Ls2KLRJQ" association="_fk0fsCTNEemxz-Ls2KLRJQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jsYyACTNEemxz-Ls2KLRJQ" memberEnd="_jsb1UiTNEemxz-Ls2KLRJQ _jse4oCTNEemxz-Ls2KLRJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jsb1UCTNEemxz-Ls2KLRJQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jsb1USTNEemxz-Ls2KLRJQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_jse4oCTNEemxz-Ls2KLRJQ" name="room" type="_c6EbkCTLEemxz-Ls2KLRJQ" association="_jsYyACTNEemxz-Ls2KLRJQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_qHAsECTNEemxz-Ls2KLRJQ" memberEnd="_qHDIUiTNEemxz-Ls2KLRJQ _qHDvYiTNEemxz-Ls2KLRJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qHDIUCTNEemxz-Ls2KLRJQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qHDIUSTNEemxz-Ls2KLRJQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_qHDvYiTNEemxz-Ls2KLRJQ" name="room" type="_c6EbkCTLEemxz-Ls2KLRJQ" association="_qHAsECTNEemxz-Ls2KLRJQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_boscAEKsEeqGFLvfuWx6Rw" name="HotelSystem Specific Types">
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_iqKVcCTMEemxz-Ls2KLRJQ" name="UBoolean"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_urMB4CTNEemxz-Ls2KLRJQ" name="UReal"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_6msKkCTNEemxz-Ls2KLRJQ" name="UInteger"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4fTa8EKsEeqGFLvfuWx6Rw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4fXsYEKsEeqGFLvfuWx6Rw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4fXsYUKsEeqGFLvfuWx6Rw" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4fXsYkKsEeqGFLvfuWx6Rw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4fXsY0KsEeqGFLvfuWx6Rw" key="Copyright" value="CEA LIST - Initial API and Implementation&#xD;&#xA;"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4fXsZEKsEeqGFLvfuWx6Rw" key="Date" value="2012-12-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4fXsZUKsEeqGFLvfuWx6Rw" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4fV3MEKsEeqGFLvfuWx6Rw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_16oYAD-SEeKj6r7ThQagKA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4fYTcEKsEeqGFLvfuWx6Rw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4fZhkEKsEeqGFLvfuWx6Rw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4fZhkUKsEeqGFLvfuWx6Rw" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4fZhkkKsEeqGFLvfuWx6Rw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4fZhk0KsEeqGFLvfuWx6Rw" key="Copyright" value="CEA LIST - Initial API and Implementation&#xD;&#xA;"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4fZhlEKsEeqGFLvfuWx6Rw" key="Date" value="2012-12-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4fZhlUKsEeqGFLvfuWx6Rw" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4fY6gEKsEeqGFLvfuWx6Rw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eijPgUBcEeKj6r7ThQagKA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_dL4lkPXAEeGSQON-DQ-5eg"/>
+    </profileApplication>
+  </uml:Model>
+  <Symbols:TypeSymbolDefinition xmi:id="_54ZU0EKsEeqGFLvfuWx6Rw" base_Type="_c6EbkCTLEemxz-Ls2KLRJQ" symbolPath="platform:/resource/hotel/bedroom.jpg"/>
+  <Symbols:TypeSymbolDefinition xmi:id="_Rzg0sEKuEeqGFLvfuWx6Rw" base_Type="_RE1oECTNEemxz-Ls2KLRJQ" symbolPath="platform:/resource/hotel/TempSensor.jpg"/>
+  <Symbols:TypeSymbolDefinition xmi:id="_AuUY4EKvEeqGFLvfuWx6Rw" base_Type="_LWeXECTNEemxz-Ls2KLRJQ" symbolPath="platform:/resource/hotel/AlarmCenter.jpg"/>
+  <Symbols:TypeSymbolDefinition xmi:id="_DYmN0EKvEeqGFLvfuWx6Rw" base_Type="_PFwsQCTNEemxz-Ls2KLRJQ" symbolPath="platform:/resource/hotel/SmokeSensor.jpg"/>
+  <Symbols:TypeSymbolDefinition xmi:id="_FDbX8EKvEeqGFLvfuWx6Rw" base_Type="_QdeGECTNEemxz-Ls2KLRJQ" symbolPath="platform:/resource/hotel/CO_Sensor.jpg"/>
+</xmi:XMI>
