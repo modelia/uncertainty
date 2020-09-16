@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UncertaintyDSML="http://UncertaintyDSML/schemas/UncertaintyDSML/_tiWM0PgUEeqp-ewinjsb8g/27" xmlns:UncertaintyDSML.UncertaintyDSMLExtendedTypes="http:///UncertaintyDSML/UncertaintyDSMLExtendedTypes.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://UncertaintyDSML/schemas/UncertaintyDSML/_tiWM0PgUEeqp-ewinjsb8g/27 ../UncertaintyDSML/UncertaintyDSML.profile.uml#_tiWM0fgUEeqp-ewinjsb8g http:///UncertaintyDSML/UncertaintyDSMLExtendedTypes.ecore ../UncertaintyDSML/UncertaintyDSML.profile.uml#_tiUXovgUEeqp-ewinjsb8g">
+  <uml:Model xmi:id="_ZyRxYPQ_Eeq2jPzr_G9_UQ" name="model_mlsystem" visibility="public">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ZzFCoPQ_Eeq2jPzr_G9_UQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_jB-bIPQ_Eeq2jPzr_G9_UQ" name="Tony" visibility="public">
+      <classifier xmi:type="uml:Class" href="MLSystem.uml#_TM3PwPOTEeqJAqD07SEldQ"/>
+      <slot xmi:type="uml:Slot" xmi:id="_AWCVoPRBEeq2jPzr_G9_UQ">
+        <definingFeature xmi:type="uml:Property" href="MLSystem.uml#_gccaAPOUEeqJAqD07SEldQ"/>
+        <value xmi:type="uml:LiteralString" xmi:id="_ECpxUPRBEeq2jPzr_G9_UQ" name="name" value="Tony"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_Xzp2oPRBEeq2jPzr_G9_UQ" name="ModelAutocomplete">
+      <classifier xmi:type="uml:Class" href="MLSystem.uml#__ArP0PN9Eeq8KIW8YJt_mw"/>
+      <slot xmi:type="uml:Slot" xmi:id="_gPfIkPRDEeq2jPzr_G9_UQ">
+        <definingFeature xmi:type="uml:Property" href="MLSystem.uml#_8AjEsPOTEeqJAqD07SEldQ"/>
+        <value xmi:type="uml:LiteralReal" xmi:id="_jr9PcPRDEeq2jPzr_G9_UQ" value="0.98"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_r3TLIPRBEeq2jPzr_G9_UQ" name="ModeliaSystem">
+      <classifier xmi:type="uml:Class" href="MLSystem.uml#_RaesIPOTEeqJAqD07SEldQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_7BZ90PRBEeq2jPzr_G9_UQ" name="InstanceSpecification7">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7u6kEPRBEeq2jPzr_G9_UQ" source="InstanceEnd" references="_r3TLIPRBEeq2jPzr_G9_UQ _Xzp2oPRBEeq2jPzr_G9_UQ"/>
+      <classifier xmi:type="uml:Association" href="MLSystem.uml#_4j2e4POUEeqJAqD07SEldQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_K66NIPRCEeq2jPzr_G9_UQ" name="i1">
+      <classifier xmi:type="uml:AssociationClass" href="MLSystem.uml#_GNz-IPQ9Eeq2jPzr_G9_UQ"/>
+      <slot xmi:type="uml:Slot" xmi:id="_wn2TkPRCEeq2jPzr_G9_UQ">
+        <definingFeature xmi:type="uml:Property" href="MLSystem.uml#_RUf-sPQ9Eeq2jPzr_G9_UQ"/>
+        <value xmi:type="uml:LiteralReal" xmi:id="_zzw18PRCEeq2jPzr_G9_UQ" value="0.8"/>
+      </slot>
+      <slot xmi:type="uml:Slot" xmi:id="_3akkkPRCEeq2jPzr_G9_UQ">
+        <definingFeature xmi:type="uml:Property" href="MLSystem.uml#_J82bsPQ9Eeq2jPzr_G9_UQ"/>
+        <value xmi:type="uml:LiteralString" xmi:id="_wd6yIPRbEeq2jPzr_G9_UQ" value="&quot;airplane&quot;, &quot;pilot&quot;, &quot;flight&quot;"/>
+      </slot>
+      <slot xmi:type="uml:Slot" xmi:id="_9EG_8PRCEeq2jPzr_G9_UQ">
+        <definingFeature xmi:type="uml:Property" href="MLSystem.uml#_OaaMIPQ9Eeq2jPzr_G9_UQ"/>
+        <value xmi:type="uml:LiteralString" xmi:id="_yvpkMPRbEeq2jPzr_G9_UQ" value="&quot;crew&quot;"/>
+      </slot>
+      <slot xmi:type="uml:Slot" xmi:id="_Ewa5cfRFEeq2jPzr_G9_UQ">
+        <definingFeature xmi:type="uml:Property" href="MLSystem.uml#__TyRovREEeq2jPzr_G9_UQ"/>
+        <value xmi:type="uml:InstanceValue" xmi:id="_Ewa5cvRFEeq2jPzr_G9_UQ" name="InstanceValue0" instance="_1TwMkPRDEeq2jPzr_G9_UQ">
+          <type xmi:type="uml:Class" href="MLSystem.uml#_HvkwQPOXEeqJAqD07SEldQ"/>
+        </value>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_P3FMMPRCEeq2jPzr_G9_UQ" name="InstanceSpecification10">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QSQFQPRCEeq2jPzr_G9_UQ" source="InstanceEnd" references="_r3TLIPRBEeq2jPzr_G9_UQ _K66NIPRCEeq2jPzr_G9_UQ"/>
+      <classifier xmi:type="uml:AssociationClass" href="MLSystem.uml#_GNz-IPQ9Eeq2jPzr_G9_UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_WBEpQPRCEeq2jPzr_G9_UQ" name="InstanceSpecification11">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WdVugPRCEeq2jPzr_G9_UQ" source="InstanceEnd" references="_K66NIPRCEeq2jPzr_G9_UQ _jB-bIPQ_Eeq2jPzr_G9_UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_1TwMkPRDEeq2jPzr_G9_UQ" name="s1">
+      <classifier xmi:type="uml:Class" href="MLSystem.uml#_HvkwQPOXEeqJAqD07SEldQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_EWJYQPRFEeq2jPzr_G9_UQ" name="InstanceSpecification12">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ewa5cPRFEeq2jPzr_G9_UQ" source="InstanceEnd" references="_1TwMkPRDEeq2jPzr_G9_UQ _K66NIPRCEeq2jPzr_G9_UQ"/>
+      <classifier xmi:type="uml:Association" href="MLSystem.uml#__TxqkPREEeq2jPzr_G9_UQ"/>
+      <slot xmi:type="uml:Slot" xmi:id="_EwbggPRFEeq2jPzr_G9_UQ">
+        <definingFeature xmi:type="uml:Property" href="MLSystem.uml#__Ty4svREEeq2jPzr_G9_UQ"/>
+        <value xmi:type="uml:InstanceValue" xmi:id="_EwbggfRFEeq2jPzr_G9_UQ" name="InstanceValue0" instance="_K66NIPRCEeq2jPzr_G9_UQ">
+          <type xmi:type="uml:AssociationClass" href="MLSystem.uml#_GNz-IPQ9Eeq2jPzr_G9_UQ"/>
+        </value>
+      </slot>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ffH_cPQ_Eeq2jPzr_G9_UQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cuA2gPggEeqhf-1_6zRLbg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cuA2gfggEeqhf-1_6zRLbg" key="Version" value="0.0.28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cuA2gvggEeqhf-1_6zRLbg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cuA2g_ggEeqhf-1_6zRLbg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cuA2hPggEeqhf-1_6zRLbg" key="Date" value="2020-09-16"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cuA2hfggEeqhf-1_6zRLbg" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ffJ0oPQ_Eeq2jPzr_G9_UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../UncertaintyDSML/UncertaintyDSML.profile.uml#_tiUXoPgUEeqp-ewinjsb8g"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../UncertaintyDSML/UncertaintyDSML.profile.uml#_6OkAoCTcEemxz-Ls2KLRJQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ffKbtvQ_Eeq2jPzr_G9_UQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cvh5cPggEeqhf-1_6zRLbg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cvh5cfggEeqhf-1_6zRLbg" key="Version" value="0.0.28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cvh5cvggEeqhf-1_6zRLbg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cvh5c_ggEeqhf-1_6zRLbg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cvh5dPggEeqhf-1_6zRLbg" key="Date" value="2020-09-16"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cvh5dfggEeqhf-1_6zRLbg" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ffLCwPQ_Eeq2jPzr_G9_UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../UncertaintyDSML/UncertaintyDSML.profile.uml#_tiWM0fgUEeqp-ewinjsb8g"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../UncertaintyDSML/UncertaintyDSML.profile.uml#_CstRoCTdEemxz-Ls2KLRJQ"/>
+    </profileApplication>
+  </uml:Model>
+  <UncertaintyDSML:Agent xmi:id="_DhJU0PRDEeq2jPzr_G9_UQ" base_InstanceSpecification="_jB-bIPQ_Eeq2jPzr_G9_UQ"/>
+  <UncertaintyDSML:SubjectiveOpinionStatement xmi:id="_P1A2APRKEeq2jPzr_G9_UQ" base_Element="_1TwMkPRDEeq2jPzr_G9_UQ">
+    <sOpinion xmi:type="UncertaintyDSML:SubjectiveOpinion" xmi:id="_Qd0icPRKEeq2jPzr_G9_UQ" source="_DhJU0PRDEeq2jPzr_G9_UQ">
+      <value xmi:type="UncertaintyDSML.UncertaintyDSMLExtendedTypes:SBoolean" xmi:id="_SNvn8PRKEeq2jPzr_G9_UQ" value="true" belief="0.7" disbelief="0.1" uncertainty="0.2" base_rate="0.8"/>
+    </sOpinion>
+  </UncertaintyDSML:SubjectiveOpinionStatement>
+</xmi:XMI>
