@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BeliefDSML="http://UncertaintyDSML/schemas/BeliefDSML/_MhlZkPROEeq2jPzr_G9_UQ/23" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://UncertaintyDSML/schemas/BeliefDSML/_MhlZkPROEeq2jPzr_G9_UQ/23 ../UncertaintyDSML/UncertaintyDSML.profile.uml#_MhlZkfROEeq2jPzr_G9_UQ">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UncertaintyDSML="http://UncertaintyDSML/schemas/UncertaintyDSML/_tiWM0PgUEeqp-ewinjsb8g/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://UncertaintyDSML/schemas/UncertaintyDSML/_tiWM0PgUEeqp-ewinjsb8g/27 ../UncertaintyDSML/UncertaintyDSML.profile.uml">
   <uml:Model xmi:id="_8uqw8PN9Eeq8KIW8YJt_mw" name="MLSystem">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_8vrdkPN9Eeq8KIW8YJt_mw">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -75,32 +75,33 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y8G-wPROEeq2jPzr_G9_UQ"/>
       </ownedEnd>
     </packagedElement>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_W-bM8PN_Eeq8KIW8YJt_mw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ypYpcPUyEeq5dfzHcuHKdA" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ypYpcfUyEeq5dfzHcuHKdA" key="Version" value="0.0.24"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ypYpcvUyEeq5dfzHcuHKdA" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ypYpc_UyEeq5dfzHcuHKdA" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ypYpdPUyEeq5dfzHcuHKdA" key="Date" value="2020-09-11"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ypYpdfUyEeq5dfzHcuHKdA" key="Author" value=""/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_OK8bIPjPEeqBM8wEs5BkyA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OK-QUPjPEeqBM8wEs5BkyA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OK-QUfjPEeqBM8wEs5BkyA" key="Version" value="0.0.28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OK-QUvjPEeqBM8wEs5BkyA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OK-QU_jPEeqBM8wEs5BkyA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OK-QVPjPEeqBM8wEs5BkyA" key="Date" value="2020-09-16"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OK-QVfjPEeqBM8wEs5BkyA" key="Author" value=""/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W-cbEPN_Eeq8KIW8YJt_mw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../UncertaintyDSML/UncertaintyDSML.profile.uml#_MhkygfROEeq2jPzr_G9_UQ"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OK9pQPjPEeqBM8wEs5BkyA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../uncertaintyDSML/UncertaintyDSML.profile.uml#_tiUXoPgUEeqp-ewinjsb8g"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="../UncertaintyDSML/UncertaintyDSML.profile.uml#_6OkAoCTcEemxz-Ls2KLRJQ"/>
+      <appliedProfile xmi:type="uml:Profile" href="../uncertaintyDSML/UncertaintyDSML.profile.uml#_6OkAoCTcEemxz-Ls2KLRJQ"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yOotcPONEeq8KIW8YJt_mw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ypc64PUyEeq5dfzHcuHKdA" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ypc64fUyEeq5dfzHcuHKdA" key="Version" value="0.0.24"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ypc64vUyEeq5dfzHcuHKdA" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ypc64_UyEeq5dfzHcuHKdA" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ypc65PUyEeq5dfzHcuHKdA" key="Date" value="2020-09-11"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ypc65fUyEeq5dfzHcuHKdA" key="Author" value=""/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_OK-3YPjPEeqBM8wEs5BkyA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OK_ecPjPEeqBM8wEs5BkyA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OK_ecfjPEeqBM8wEs5BkyA" key="Version" value="0.0.28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OK_ecvjPEeqBM8wEs5BkyA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OK_ec_jPEeqBM8wEs5BkyA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OK_edPjPEeqBM8wEs5BkyA" key="Date" value="2020-09-16"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OK_edfjPEeqBM8wEs5BkyA" key="Author" value=""/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yOotcfONEeq8KIW8YJt_mw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../UncertaintyDSML/UncertaintyDSML.profile.uml#_MhlZkfROEeq2jPzr_G9_UQ"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OK-3YfjPEeqBM8wEs5BkyA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../uncertaintyDSML/UncertaintyDSML.profile.uml#_tiWM0fgUEeqp-ewinjsb8g"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="../UncertaintyDSML/UncertaintyDSML.profile.uml#_CstRoCTdEemxz-Ls2KLRJQ"/>
+      <appliedProfile xmi:type="uml:Profile" href="../uncertaintyDSML/UncertaintyDSML.profile.uml#_CstRoCTdEemxz-Ls2KLRJQ"/>
     </profileApplication>
   </uml:Model>
-  <BeliefDSML:SubjectiveOpinionStatement xmi:id="_9h6EUPREEeq2jPzr_G9_UQ" base_Element="_HvkwQPOXEeqJAqD07SEldQ"/>
+  <UncertaintyDSML:SubjectiveOpinionStatement xmi:id="_9h6EUPREEeq2jPzr_G9_UQ" base_Element="_HvkwQPOXEeqJAqD07SEldQ"/>
+  <UncertaintyDSML:SubjectiveOpinionStatement xmi:id="_PSRPkPjPEeqBM8wEs5BkyA" base_Element="_HvkwQPOXEeqJAqD07SEldQ"/>
 </xmi:XMI>

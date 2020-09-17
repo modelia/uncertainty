@@ -90,49 +90,14 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_1TxauPRDEeq2jPzr_G9_UQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1TxaufRDEeq2jPzr_G9_UQ"/>
     </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_sBTM__RHEeq2jPzr_G9_UQ" type="StereotypeCompartment">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DfMlUPRJEeq2jPzr_G9_UQ" source="PapyrusCSSForceValue">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DfMlUfRJEeq2jPzr_G9_UQ" key="visible" value="true"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_UlomovjPEeqBM8wEs5BkyA" type="StereotypeCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b3nmgPjPEeqBM8wEs5BkyA" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_b3nmgfjPEeqBM8wEs5BkyA" key="visible" value="true"/>
       </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_sBT0AvRHEeq2jPzr_G9_UQ" type="StereotypeProperty">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FYBvMPRJEeq2jPzr_G9_UQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FYBvMfRJEeq2jPzr_G9_UQ" key="visible" value="true"/>
-        </eAnnotations>
-        <element xmi:type="uml:Property" href="platform:/resource/UncertaintyDSML/UncertaintyDSML.profile.uml#_SJ0uEPRGEeq2jPzr_G9_UQ"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_sBT0A_RHEeq2jPzr_G9_UQ"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_sBT0APRHEeq2jPzr_G9_UQ" type="StereotypeProperty">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Gsj5MPRJEeq2jPzr_G9_UQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Gsj5MfRJEeq2jPzr_G9_UQ" key="visible" value="true"/>
-        </eAnnotations>
-        <element xmi:type="uml:Property" href="platform:/resource/UncertaintyDSML/UncertaintyDSML.profile.uml#_G5mCIPOlEeqJAqD07SEldQ"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_sBT0AfRHEeq2jPzr_G9_UQ"/>
-      </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_sBTNAPRHEeq2jPzr_G9_UQ"/>
-      <styles xmi:type="notation:StringValueStyle" xmi:id="_sBTNAfRHEeq2jPzr_G9_UQ" name="stereotype" stringValue="UncertaintyDSML::BeliefDSML::SBooleanOpinionStatement"/>
-      <element xmi:type="uml:Stereotype" href="platform:/resource/UncertaintyDSML/UncertaintyDSML.profile.uml#_CQz5IPOlEeqJAqD07SEldQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sBTNAvRHEeq2jPzr_G9_UQ"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_QM0HcPRJEeq2jPzr_G9_UQ" visible="false" type="StereotypeBrace">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WhZD4PRJEeq2jPzr_G9_UQ" source="PapyrusCSSForceValue">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WhZD4fRJEeq2jPzr_G9_UQ" key="visible" value="true"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_X5lJYPRKEeq2jPzr_G9_UQ" visible="false" type="StereotypePropertyBrace">
-        <element xmi:type="uml:Property" href="platform:/resource/UncertaintyDSML/UncertaintyDSML.profile.uml#_G5mCIPOlEeqJAqD07SEldQ"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_X5lJYfRKEeq2jPzr_G9_UQ"/>
-      </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_QM0HcfRJEeq2jPzr_G9_UQ"/>
-      <styles xmi:type="notation:StringValueStyle" xmi:id="_QM0HcvRJEeq2jPzr_G9_UQ" name="stereotype" stringValue="UncertaintyDSML::BeliefDSML::SBooleanOpinionStatement"/>
-      <element xmi:type="uml:Stereotype" href="platform:/resource/UncertaintyDSML/UncertaintyDSML.profile.uml#_CQz5IPOlEeqJAqD07SEldQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QM0Hc_RJEeq2jPzr_G9_UQ"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_X5j7QPRKEeq2jPzr_G9_UQ" type="StereotypeLabel">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ariToPRKEeq2jPzr_G9_UQ" source="PapyrusCSSForceValue">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ariTofRKEeq2jPzr_G9_UQ" key="visible" value="true"/>
-      </eAnnotations>
-      <styles xmi:type="notation:StringValueStyle" xmi:id="_X5j7QfRKEeq2jPzr_G9_UQ" name="stereotype" stringValue="UncertaintyDSML::BeliefDSML::SubjectiveOpinionStatement"/>
-      <element xmi:type="uml:Stereotype" href="platform:/resource/UncertaintyDSML/UncertaintyDSML.profile.uml#_CQz5IPOlEeqJAqD07SEldQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X5j7QvRKEeq2jPzr_G9_UQ"/>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Ulomo_jPEeqBM8wEs5BkyA"/>
+      <styles xmi:type="notation:StringValueStyle" xmi:id="_UlompPjPEeqBM8wEs5BkyA" name="stereotype" stringValue="UncertaintyDSML::UncertaintyDSML::SubjectiveOpinionStatement"/>
+      <element xmi:type="uml:Stereotype" href="platform:/resource/uncertaintyDSML/UncertaintyDSML.profile.uml#_CQz5IPOlEeqJAqD07SEldQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UlompfjPEeqBM8wEs5BkyA"/>
     </children>
     <element xmi:type="uml:InstanceSpecification" href="model_mlsystem.uml#_1TwMkPRDEeq2jPzr_G9_UQ"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1TxasfRDEeq2jPzr_G9_UQ" x="220" y="270" width="541" height="161"/>
@@ -141,26 +106,6 @@
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4vrkEvRHEeq2jPzr_G9_UQ" source="PapyrusCSSForceValue">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4vrkE_RHEeq2jPzr_G9_UQ" key="visible" value="true"/>
     </eAnnotations>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_sBTM9_RHEeq2jPzr_G9_UQ" visible="false" type="StereotypeCompartment">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4vrkEPRHEeq2jPzr_G9_UQ" source="PapyrusCSSForceValue">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4vrkEfRHEeq2jPzr_G9_UQ" key="visible" value="true"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_sBTM_fRHEeq2jPzr_G9_UQ" visible="false" type="StereotypeProperty">
-        <element xmi:type="uml:Property" href="platform:/resource/UncertaintyDSML/UncertaintyDSML.profile.uml#_SJ0uEPRGEeq2jPzr_G9_UQ"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_sBTM_vRHEeq2jPzr_G9_UQ"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_sBTM-_RHEeq2jPzr_G9_UQ" visible="false" type="StereotypeProperty">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c5YgsPRJEeq2jPzr_G9_UQ" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c5YgsfRJEeq2jPzr_G9_UQ" key="visible" value="true"/>
-        </eAnnotations>
-        <element xmi:type="uml:Property" href="platform:/resource/UncertaintyDSML/UncertaintyDSML.profile.uml#_G5mCIPOlEeqJAqD07SEldQ"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_sBTM_PRHEeq2jPzr_G9_UQ"/>
-      </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_sBTM-PRHEeq2jPzr_G9_UQ"/>
-      <styles xmi:type="notation:StringValueStyle" xmi:id="_sBTM-fRHEeq2jPzr_G9_UQ" name="stereotype" stringValue="UncertaintyDSML::BeliefDSML::SBooleanOpinionStatement"/>
-      <element xmi:type="uml:Stereotype" href="platform:/resource/UncertaintyDSML/UncertaintyDSML.profile.uml#_CQz5IPOlEeqJAqD07SEldQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sBTM-vRHEeq2jPzr_G9_UQ"/>
-    </children>
     <styles xmi:type="notation:TitleStyle" xmi:id="_sBSl6PRHEeq2jPzr_G9_UQ"/>
     <styles xmi:type="notation:EObjectValueStyle" xmi:id="_sBTM8PRHEeq2jPzr_G9_UQ" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:InstanceSpecification" href="model_mlsystem.uml#_1TwMkPRDEeq2jPzr_G9_UQ"/>
@@ -168,13 +113,13 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sBSl6fRHEeq2jPzr_G9_UQ" x="740" y="400"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_dXxlMPggEeqhf-1_6zRLbg" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_dXxlMfggEeqhf-1_6zRLbg"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dXxlM_ggEeqhf-1_6zRLbg" name="BASE_ELEMENT">
+  <children xmi:type="notation:Shape" xmi:id="_UlZ9I_jPEeqBM8wEs5BkyA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_UlZ9JPjPEeqBM8wEs5BkyA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_UlZ9JvjPEeqBM8wEs5BkyA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:InstanceSpecification" href="model_mlsystem.uml#_jB-bIPQ_Eeq2jPzr_G9_UQ"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXxlMvggEeqhf-1_6zRLbg" x="900" y="45"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UlZ9JfjPEeqBM8wEs5BkyA" x="900" y="45"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_crTM8fQ_Eeq2jPzr_G9_UQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_crTM8vQ_Eeq2jPzr_G9_UQ"/>
@@ -254,14 +199,14 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sBTM9PRHEeq2jPzr_G9_UQ" id="(1.0,0.6)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sBTM9fRHEeq2jPzr_G9_UQ" id="(0.020174848688634835,0.0)"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_dXxlNPggEeqhf-1_6zRLbg" type="StereotypeCommentLink" source="_jCAQUPQ_Eeq2jPzr_G9_UQ" target="_dXxlMPggEeqhf-1_6zRLbg">
-    <styles xmi:type="notation:FontStyle" xmi:id="_dXxlNfggEeqhf-1_6zRLbg"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dXxlOfggEeqhf-1_6zRLbg" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_UlZ9J_jPEeqBM8wEs5BkyA" type="StereotypeCommentLink" source="_jCAQUPQ_Eeq2jPzr_G9_UQ" target="_UlZ9I_jPEeqBM8wEs5BkyA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_UlZ9KPjPEeqBM8wEs5BkyA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_UlakMvjPEeqBM8wEs5BkyA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:InstanceSpecification" href="model_mlsystem.uml#_jB-bIPQ_Eeq2jPzr_G9_UQ"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dXxlNvggEeqhf-1_6zRLbg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXxlN_ggEeqhf-1_6zRLbg"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXxlOPggEeqhf-1_6zRLbg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UlZ9KfjPEeqBM8wEs5BkyA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UlakMPjPEeqBM8wEs5BkyA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UlakMfjPEeqBM8wEs5BkyA"/>
   </edges>
 </notation:Diagram>

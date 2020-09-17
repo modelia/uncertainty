@@ -473,21 +473,6 @@
     <element xmi:type="uml:Class" href="hotel_obj.uml#_5mm5sCTlEemxz-Ls2KLRJQ"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5msZQSTlEemxz-Ls2KLRJQ" x="280" y="460" height="158"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_-7rusCTqEemxz-Ls2KLRJQ" type="Comment_Shape">
-    <children xmi:type="notation:DecorationNode" xmi:id="_-7rusiTqEemxz-Ls2KLRJQ" type="Comment_BodyLabel"/>
-    <element xmi:type="uml:Comment" href="hotel_obj.uml#_-7h9sCTqEemxz-Ls2KLRJQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-7rusSTqEemxz-Ls2KLRJQ" x="520" y="120"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_lS9LkCTrEemxz-Ls2KLRJQ" type="Comment_Shape">
-    <children xmi:type="notation:DecorationNode" xmi:id="_lS9LkiTrEemxz-Ls2KLRJQ" type="Comment_BodyLabel"/>
-    <element xmi:type="uml:Comment" href="hotel_obj.uml#_lS0BoCTrEemxz-Ls2KLRJQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lS9LkSTrEemxz-Ls2KLRJQ" x="520" y="480"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_oBue8CTrEemxz-Ls2KLRJQ" type="Comment_Shape">
-    <children xmi:type="notation:DecorationNode" xmi:id="_oBue8iTrEemxz-Ls2KLRJQ" type="Comment_BodyLabel"/>
-    <element xmi:type="uml:Comment" href="hotel_obj.uml#_oBlVACTrEemxz-Ls2KLRJQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oBue8STrEemxz-Ls2KLRJQ" x="520" y="560" height="41"/>
-  </children>
   <children xmi:type="notation:Shape" xmi:id="_oK7acCU8EemEn4oXuegbKA" type="InstanceSpecification_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_oK8okCU8EemEn4oXuegbKA" type="InstanceSpecification_NameLabel"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_oK8okSU8EemEn4oXuegbKA" type="InstanceSpecification_FloatingNameLabel">
@@ -500,7 +485,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oK9PpCU8EemEn4oXuegbKA"/>
     </children>
     <element xmi:type="uml:InstanceSpecification" href="hotel_obj.uml#_oK1T0CU8EemEn4oXuegbKA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oK7acSU8EemEn4oXuegbKA" x="560" y="280" height="59"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oK7acSU8EemEn4oXuegbKA" x="560" y="300" height="59"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_tpMZ8CU8EemEn4oXuegbKA" type="InstanceSpecification_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_tpNBACU8EemEn4oXuegbKA" type="InstanceSpecification_NameLabel"/>
@@ -514,39 +499,23 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tpNoFCU8EemEn4oXuegbKA"/>
     </children>
     <element xmi:type="uml:InstanceSpecification" href="hotel_obj.uml#_tpJ9sCU8EemEn4oXuegbKA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tpMZ8SU8EemEn4oXuegbKA" x="560" y="360" height="61"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tpMZ8SU8EemEn4oXuegbKA" x="560" y="380" height="61"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_t8HioCiBEemefPBcM7WVKA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_t8HioSiBEemefPBcM7WVKA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_t8IJsCiBEemefPBcM7WVKA" name="BASE_ELEMENT">
+  <children xmi:type="notation:Shape" xmi:id="_4GdFsPjNEeqBM8wEs5BkyA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_4GdFsfjNEeqBM8wEs5BkyA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_4GdFs_jNEeqBM8wEs5BkyA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:InstanceSpecification" href="hotel_obj.uml#_oK1T0CU8EemEn4oXuegbKA"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t8HioiiBEemefPBcM7WVKA" x="760" y="280"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4GdFsvjNEeqBM8wEs5BkyA" x="760" y="280"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_wFb_lCiBEemefPBcM7WVKA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_wFb_lSiBEemefPBcM7WVKA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wFb_lyiBEemefPBcM7WVKA" name="BASE_ELEMENT">
+  <children xmi:type="notation:Shape" xmi:id="_4GgJAPjNEeqBM8wEs5BkyA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_4GgJAfjNEeqBM8wEs5BkyA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_4GgJA_jNEeqBM8wEs5BkyA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:InstanceSpecification" href="hotel_obj.uml#_tpJ9sCU8EemEn4oXuegbKA"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wFb_liiBEemefPBcM7WVKA" x="760" y="360"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_xdILQCiBEemefPBcM7WVKA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_xdILQSiBEemefPBcM7WVKA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_xdIyUCiBEemefPBcM7WVKA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Comment" href="hotel_obj.uml#_-7h9sCTqEemxz-Ls2KLRJQ"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xdILQiiBEemefPBcM7WVKA" x="720" y="120"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_yQuydiiBEemefPBcM7WVKA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_yQuydyiBEemefPBcM7WVKA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_yQvZgCiBEemefPBcM7WVKA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Comment" href="hotel_obj.uml#_lS0BoCTrEemxz-Ls2KLRJQ"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yQuyeCiBEemefPBcM7WVKA" x="720" y="480"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4GgJAvjNEeqBM8wEs5BkyA" x="760" y="360"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_vX-fUSThEemxz-Ls2KLRJQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_vX-fUiThEemxz-Ls2KLRJQ"/>
@@ -802,44 +771,24 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yXpw8CTrEemxz-Ls2KLRJQ" id="(0.0,0.12658227848101267)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yXpw8STrEemxz-Ls2KLRJQ" id="(1.0,0.9876543209876543)"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_t8IwwCiBEemefPBcM7WVKA" type="StereotypeCommentLink" source="_oK7acCU8EemEn4oXuegbKA" target="_t8HioCiBEemefPBcM7WVKA">
-    <styles xmi:type="notation:FontStyle" xmi:id="_t8IwwSiBEemefPBcM7WVKA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_t8JX0SiBEemefPBcM7WVKA" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_4GdFtPjNEeqBM8wEs5BkyA" type="StereotypeCommentLink" source="_oK7acCU8EemEn4oXuegbKA" target="_4GdFsPjNEeqBM8wEs5BkyA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_4GdFtfjNEeqBM8wEs5BkyA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_4GdFufjNEeqBM8wEs5BkyA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:InstanceSpecification" href="hotel_obj.uml#_oK1T0CU8EemEn4oXuegbKA"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_t8IwwiiBEemefPBcM7WVKA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t8IwwyiBEemefPBcM7WVKA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t8JX0CiBEemefPBcM7WVKA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4GdFtvjNEeqBM8wEs5BkyA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4GdFt_jNEeqBM8wEs5BkyA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4GdFuPjNEeqBM8wEs5BkyA"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_wFb_mCiBEemefPBcM7WVKA" type="StereotypeCommentLink" source="_tpMZ8CU8EemEn4oXuegbKA" target="_wFb_lCiBEemefPBcM7WVKA">
-    <styles xmi:type="notation:FontStyle" xmi:id="_wFb_mSiBEemefPBcM7WVKA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wFb_nSiBEemefPBcM7WVKA" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_4GgJBPjNEeqBM8wEs5BkyA" type="StereotypeCommentLink" source="_tpMZ8CU8EemEn4oXuegbKA" target="_4GgJAPjNEeqBM8wEs5BkyA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_4GgJBfjNEeqBM8wEs5BkyA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_4GgJCfjNEeqBM8wEs5BkyA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:InstanceSpecification" href="hotel_obj.uml#_tpJ9sCU8EemEn4oXuegbKA"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wFb_miiBEemefPBcM7WVKA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wFb_myiBEemefPBcM7WVKA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wFb_nCiBEemefPBcM7WVKA"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_xdIyUSiBEemefPBcM7WVKA" type="StereotypeCommentLink" source="_-7rusCTqEemxz-Ls2KLRJQ" target="_xdILQCiBEemefPBcM7WVKA">
-    <styles xmi:type="notation:FontStyle" xmi:id="_xdJZYCiBEemefPBcM7WVKA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_xdKAcCiBEemefPBcM7WVKA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Comment" href="hotel_obj.uml#_-7h9sCTqEemxz-Ls2KLRJQ"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xdJZYSiBEemefPBcM7WVKA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xdJZYiiBEemefPBcM7WVKA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xdJZYyiBEemefPBcM7WVKA"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_yQvZgSiBEemefPBcM7WVKA" type="StereotypeCommentLink" source="_lS9LkCTrEemxz-Ls2KLRJQ" target="_yQuydiiBEemefPBcM7WVKA">
-    <styles xmi:type="notation:FontStyle" xmi:id="_yQvZgiiBEemefPBcM7WVKA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_yQvZhiiBEemefPBcM7WVKA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Comment" href="hotel_obj.uml#_lS0BoCTrEemxz-Ls2KLRJQ"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yQvZgyiBEemefPBcM7WVKA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yQvZhCiBEemefPBcM7WVKA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yQvZhSiBEemefPBcM7WVKA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4GgJBvjNEeqBM8wEs5BkyA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4GgJB_jNEeqBM8wEs5BkyA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4GgJCPjNEeqBM8wEs5BkyA"/>
   </edges>
 </notation:Diagram>
